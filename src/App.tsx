@@ -17,6 +17,9 @@ import {
   BookOpen,
   Zap,
   Palette
+
+import Newsletter from './components/Newsletter';
+
 } from 'lucide-react';
 
 function NoiseBg() {
@@ -766,6 +769,7 @@ function App() {
         <Skills />
         <Testimonials />
         <Contact />
+        <Newsletter />
         <Footer />
       </div>
     </div>
